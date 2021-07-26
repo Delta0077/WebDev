@@ -1,0 +1,41 @@
+body {
+  background-image: url(background1.jpg);
+  background-size: cover;
+}
+p {
+  color: #ff534a;
+  text-align: center;
+  border: 5px solid #ff5900;
+  cursor: pointer;
+}
+
+p {
+  line-height: 20px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Poiret One", cursive;
+}
+img {
+  float: right;
+}
+footer {
+  clear: both;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+.webtext:last-child {
+  border: 2px dashed green;
+}
+.active {
+  color: blue;
+}
+#div1 {
+  background: rgba(0, 0, 255, 0.2);
+  background-image: linear-gradient(to left, #fd5c13, yellow);
+  border-radius: 10px;
+}
